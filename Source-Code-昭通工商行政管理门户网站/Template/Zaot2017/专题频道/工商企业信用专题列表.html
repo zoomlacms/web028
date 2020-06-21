@@ -1,0 +1,86 @@
+{ZL.Source id="专题数据源标签"/}
+{ZL.Source id="专题节点数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>工商企业信用专题_{$SiteName/}</title> 
+<meta name="Keywords" content="{SField sid="专题节点数据源标签" FD="SpecKeyword" page="0"/}" />
+<meta name="description" content="{SField sid="专题节点数据源标签" FD="SpecDescriptive" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" /> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script> 
+<style type="text/css">
+.topics_nav{ background:#258FDD;}
+.topics_nav li{ float:left; width:10em; height:3.5em; line-height:3.5em; border-right:2px solid #ccc;}
+.topics_nav li:last-child{ border-right:none;}
+.topics_nav li a{ display:block; font-family:"微软雅黑"; font-size:1.2em; color:#fff;} 
+.topics_nav li a .fa{ margin-right:5px; font-size:1.3em;}
+.topics_nav li a img{ margin-left:5px;}
+.topics_nav li a:hover{ text-decoration:none; background:#FF8A00;}
+.topics_main{ margin-top:1em;}
+.topics_title{ padding-right:0.5em; height:40px; line-height:40px; background:#eee;}
+.topics_title .pull-left{ display:block; padding-left:40px; width:120px; height:45px; line-height:40px; background:url({$CssDir/}images/topic_mainx.png) center no-repeat; color:#fff; font-family:"微软雅黑"; font-size:16px; }
+.topics_title a{ color:#999;}
+.topics_list{ margin-top:1em;}
+.topics_item_title{ padding-left:10px; padding-right:10px; height:30px; line-height:30px; border-bottom:2px solid #258FDD;}
+.topics_item_title .pull-left{ display:block; width:100px; height:30px; line-height:30px; background:#258FDD; color:#fff; text-align:center; font-family:"微软雅黑"; font-size:16px;}
+.topics_item_title a{ color:#333;}
+.topics_list_item li{ padding-left:1em; min-height:2.5em; line-height:2.5em; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_list_item li a{ color:#333;}
+.topics_recno li{ padding-left:1em; min-height:30px; line-height:30px; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_recno li a{ color:#333;}
+.topics_main #carousel-example-generic img{ width:100%; max-height:250px;}
+.topics_main #carousel-example-generic a{ color:#fff;}
+.topics_rec span{ line-height:40px; }
+.topics_rec span a{ color:#f00; font-weight:bold;}
+.topics_rec p{ min-height:60px; color:#666; text-indent:2em; line-height:24px;}
+.topics_pagelist { height:445px;}
+</style>
+</head>
+<body>
+<div class="row">
+<img src="{$CssDir/}images/qyxy_head.jpg" class="center-block img-responsive" alt="工商企业信用专题" /></div>
+<div class="container">
+<div class="topics_nav">
+
+<ul class="list-unstyled text-center">
+<li><a href="{ZL:GetSpecialList(2)/}"><i class="fa fa-home"></i>专题首页<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(9)/}">监督动态<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(10)/}">政策法规<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(11)/}">信用公示<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+</ul>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="container mysite">
+<ol class="breadcrumb">
+<li>当期位置：<a href="/">首页</a></li>
+<li><a href="{ZL:GetSpecialList({SField sid="专题节点数据源标签" FD="SpecCate" page="0"/})/}">{SField sid="专题数据源标签" FD="SpecCateName" page="0"/}</a></li>
+<li><a href="{ZL:GetSpecialPage({SField sid="专题节点数据源标签" FD="SpecID" page="0"/})/}">{SField sid="专题节点数据源标签" FD="SpecName" page="0"/}</a></li>
+</ol>
+</div>
+<div class="container topics_pagelist"> 
+{ZL.Label id="输出专题节点信息列表_分页" NodeID="{SField sid="专题节点数据源标签" FD="SpecID" page="0"/}" TitleNum="60" ShowNum="10" /} 
+</div>
+{ZL.Label id="全站底部"/}
+</div>
+</body>
+</html>
+<script>
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+</script>

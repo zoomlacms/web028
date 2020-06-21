@@ -1,0 +1,93 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" /> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script> 
+<style type="text/css">
+.home_nav .navbar-default .navbar-nav .home_n{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#F00;} 
+.topics_nav{ background:#980808;}
+.topics_nav li{ float:left; width:8em; height:3.5em; line-height:3.5em; border-right:2px solid #ccc;}
+.topics_nav li:last-child{ border-right:none;}
+.topics_nav li a{ display:block; font-family:"微软雅黑"; font-size:1.2em; color:#fff;} 
+.topics_nav li a .fa{ margin-right:5px; font-size:1.3em;}
+.topics_nav li a img{ margin-left:5px;}
+.topics_nav li a:hover{ text-decoration:none; background:#FF8A00;}
+.topics_main{ margin-top:1em;}
+.topics_title{ padding-right:0.5em; height:40px; line-height:40px; background:#eee;}
+.topics_title .pull-left{ display:block; padding-left:40px; width:120px; height:45px; line-height:40px; background:url({$CssDir/}images/topic_main.png) center no-repeat; color:#fff; font-family:"微软雅黑"; font-size:16px; }
+.topics_title a{ color:#999;}
+.topics_list{ margin-top:1em;}
+.topics_item_title{ padding-left:10px; padding-right:10px; height:30px; line-height:30px; border-bottom:2px solid #8C0108;}
+.topics_item_title .pull-left{ display:block; width:100px; height:30px; line-height:30px; background:#8C0108; color:#fff; text-align:center; font-family:"微软雅黑"; font-size:16px;}
+.topics_item_title a{ color:#333;}
+.topics_list_item li{ padding-left:1em; min-height:2.5em; line-height:2.5em; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_list_item li a{ color:#333;}
+.topics_pagelist .list-unstyled li{ padding-left:1em; min-height:30px; line-height:30px; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat; }
+.topics_pagelist .list-unstyled li a{ color:#333;}
+.mysite{ margin-top:1em;}
+</style>
+</head>
+<body>
+<div class="topic2018">
+<h1>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}</h1>
+</div>
+
+
+
+<!--
+<div class="container mysite">
+<ol class="breadcrumb">
+<li>当期位置：<a href="/">首页</a></li>
+<li>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}</li>
+</ol>
+</div>
+-->
+
+<div class="container">
+<div class="row">
+<div class="list">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 list_l">
+<ol class="breadcrumb mysites">
+<li><a href="/">首页</a></li>
+{ZL.Label id="面包屑_抽取父节点ID名与链接" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0/}" /}
+<li><a href="#">{SField sid="节点栏目信息数据源" FD="NodeName" page="0/}</a></li>
+<li class="active">列表</li>
+</ol>
+<ul class="list-unstyled">
+{ZL.Label id="输出标题简介_带时间_带分页" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" TitleNum="50" ShowNum="6" SynopsisNum="300" /}
+</ul>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 list_r">
+{ZL.Label id="内容列表右侧的内容"/}
+</div>
+</div>
+</div>
+</div>
+
+{ZL.Label id="全站底部"/}
+</div>
+</body>
+</html>
+<script>
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+</script>

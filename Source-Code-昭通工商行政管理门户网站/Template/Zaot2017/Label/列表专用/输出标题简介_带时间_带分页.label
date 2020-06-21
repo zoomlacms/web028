@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>708</LabelID>
+    <LabelName>输出标题简介_带时间_带分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>列表专用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|TitleNum,30,1,标题长度|ShowNum,10,1,显示个数|SynopsisNum,30,1,简介长度</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_Article on ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_Article.pic,ZL_C_Article.synopsis</LabelField>
+    <LabelWhere>(NodeID=@NodeID or firstnodeid=@NodeID) and status=99</LabelWhere>
+    <LabelOrder>OrderID Desc,CreateTime Desc</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;
+&lt;div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center padding2 list_l_p"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank"&gt;&lt;img src="{ZL:GetPicUrl({Field="pic"/})/}" alt="{Field="Title"/}" class=" img-responsive"&gt;&lt;/a&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div  class="col-lg-9 col-md-9 col-sm-9 col-xs-12 padding4  list_l_s"&gt;
+&lt;div class="list_l_t"&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank"  title="{Field="Title"/}"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/a&gt;&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;p&gt;{ZL:CutText({Field="synopsis"/},@SynopsisNum,)/}&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank"&gt;[详细]&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;{ZL:FormatDate({Field="CreateTime"/},yyyy-MM-dd)/}&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/li&gt;
+{/Repeate}
+{ZL.Page id="大图标响应式列表分页v3"/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_Article"}</DataSourceType>
+    <ConnectString>DBO</ConnectString>
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

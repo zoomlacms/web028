@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>697</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="top"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top_l"&gt;
+&lt;a href="/"&gt;&lt;img src="{$LogoUrl/}" alt="{$SiteName/}" class="img-responsive"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top_r"&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div class=" pull-right top_r_div"&gt;
+&lt;form action="/search/SearchList" method="get" style="width:200px;"&gt;
+&lt;div class="input-group"&gt;
+&lt;input name="keyword" type="text" placeholder="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" /&gt;
+&lt;span class="input-group-btn"&gt;
+&lt;input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" /&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding0"&gt;最新通报：&lt;/p&gt;
+&lt;div id="demo" class="col-lg-10 col-md-10 col-sm-10 col-xs-12 qimo8"&gt;
+&lt;div class="qimo"&gt;
+&lt;div id="demo1"&gt;
+&lt;ul class="list-unstyled"&gt;
+{ZL.Label id="输出标题_不带时间" NodeID="30" TitleNum="30" ShowNum="7" /}	
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="demo2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--顶部结束--&gt;
+
+&lt;div  id="scolls"&gt;
+&lt;div class="home_nav" &gt;
+&lt;div class="navbar navbar-default"&gt;
+&lt;div class="navbar navbar-static-top" role="navigation"&gt;
+&lt;div class="container"&gt;
+&lt;div class=" navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="home_nav_t visible-xs"&gt;昭通市工商局&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="navbar-collapse collapse"&gt;
+&lt;ul class="nav navbar-nav nav_ul"&gt;
+&lt;li&gt;&lt;a href="/"&gt;首页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(52)/}"&gt;工作动态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(120)/}"&gt;政务公开&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(59)/}"&gt;办事指南&lt;/a&gt;&lt;/li&gt;
+&lt;!--
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(69)/}"&gt;法治在线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(14)/}"&gt;组织结构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(56)/}"&gt;党建工作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(72)/}"&gt;党风廉政&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(112)/}"&gt;学习园地&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(6155)/}"&gt;扫黑除恶专项斗争&lt;/a&gt;&lt;/li&gt;
+--&gt;
+&lt;li&gt;&lt;a href="#"  class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"&gt;专题专栏&lt;/a&gt;
+ &lt;ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"&gt;
+    &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href="{ZL:GetNodeLinkUrl(6143)/}"&gt;昭通市“双随机、一公开”跨部门联合 抽查监管专栏&lt;/a&gt;&lt;/li&gt;
+    &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href="{ZL:GetNodeLinkUrl(6152)/}"&gt;人大代表建议和政协提案办理工作&lt;/a&gt;&lt;/li&gt;
+    &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href="{ZL:GetNodeLinkUrl(6155)/}"&gt;扫黑除恶专项斗争&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- 导航到此结束 --&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

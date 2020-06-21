@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>726</LabelID>
+    <LabelName>输出专题节点信息列表_分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>列表专用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|TitleNum,60,1,标题长度|ShowNum,10,1,显示个数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel</LabelTable>
+    <LabelField>CreateTime,GeneralID,Title</LabelField>
+    <LabelWhere>GeneralID in (select InfoID from ZL_SpecInfo where SpecialID=@NodeID) and status=99</LabelWhere>
+    <LabelOrder>OrderID Desc,CreateTime Desc</LabelOrder>
+    <LabelContent>&lt;ul class="list-unstyled"&gt;
+{Repeate}
+&lt;li&gt;&lt;span class="pull-right"&gt;[{ZL:FormatDate({Field="CreateTime"/},yyyy-MM-dd)/}]&lt;/span&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" title="{Field="Title"/}" target="_blank"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/a&gt;&lt;/li&gt;
+{/Repeate}
+&lt;/ul&gt;
+{ZL.Page id="大图标响应式列表分页v3"/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>ztbc</DataSourceType>
+    <ConnectString>DBO</ConnectString>
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

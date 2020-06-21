@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>698</LabelID>
+    <LabelName>全站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="page"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 page_l"&gt;
+&lt;ul class="list-unstyled"&gt;
+&lt;li&gt;&lt;a href="/guest/" target="_blank"&gt;互动交流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(353)/}" target="_blank"&gt;联系我们&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(354)/}" target="_blank"&gt;版权保护&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(355)/}" target="_blank"&gt;隐私声明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(356)/}" target="_blank"&gt;使用帮助&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(3666)/}" target="_blank"&gt;网站地图&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;script type="text/javascript"&gt;document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/25/374/0000/60887951/CA253740000608879510004.js' type='text/javascript'%3E%3C/script%3E"));&lt;/script&gt;
+
+&lt;a href="http://www.yn.cyberpolice.cn:8000/" target="_blank"&gt;&lt;img src="{$CssDir/}images/pic39.jpg" alt="网警"/&gt;&lt;/a&gt;
+&lt;a href="http://www.12377.cn/" target="_blank"&gt;&lt;img src="{$CssDir/}images/pic40.jpg" alt="安网" /&gt;&lt;/a&gt;
+&lt;a href="http://121.43.68.40/exposure/jiucuo.html?site_code=5306000041&amp;url=http%3A%2F%2Fwww.ztaic.gov.cn%2F" target="_blank"&gt;&lt;img src="/UploadFiles/Image/jiucuo.png" alt="政府网站找错" /&gt;&lt;/a&gt;
+  &lt;a href="http://zc.yn.gov.cn/zhaocuo/web_zhaocuo.jsp" target="_blank"&gt;&lt;img src="/UploadFiles/Image/wzbgt.jpg" alt="云南省政府网站曝光台" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 page_r"&gt;
+&lt;div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center"&gt;&lt;img src="{$CssDir/}images/pic41.jpg" alt="" class=" img-responsive"&gt;&lt;/div&gt;
+&lt;p class="col-lg-9 col-md-9 col-sm-9 col-xs-12 list-unstyled padding0"&gt;
+{$Copyright/}
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

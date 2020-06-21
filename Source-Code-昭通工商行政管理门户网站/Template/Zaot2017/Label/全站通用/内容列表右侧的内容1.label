@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>715</LabelID>
+    <LabelName>内容列表右侧的内容1</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="picnews_r"&gt;
+&lt;div class="picnews_r_o"&gt;&lt;img src="{$CssDir/}images/pic10.jpg" alt=""&gt;&lt;span&gt;在线业务系统&lt;/span&gt;&lt;/div&gt;
+&lt;ul class="list-unstyled"&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic7.jpg" alt=""&gt;&lt;a href="http://gsxt.ynaic.gov.cn/notice/" target="_blank"&gt;企业信用信息公示系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic8.jpg" alt=""&gt;&lt;a href="http://gsxt.ynaic.gov.cn/consumerw/sgsreg.jsp" target="_blank"&gt;网上12315&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic9.jpg" alt=""&gt;&lt;a href="http://wljg.ynaic.gov.cn" target="_blank"&gt;网络商品交易监管&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic20.jpg" alt=""&gt;&lt;a href="http://gsxt.ynaic.gov.cn/webportal/" target="_blank"&gt;云南省市场监管网上应用平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic8.jpg" alt=""&gt;&lt;a href="http://www.saic.gov.cn/" target="_blank"&gt;国家市场监督管理总局&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src="{$CssDir/}images/pic8.jpg" alt=""&gt;&lt;a href="http://www.ynaic.gov.cn" target="_blank"&gt;云南省市场监督管理局&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;ul class="list-unstyled"&gt;
+&lt;div class="classify_r_b"&gt;
+&lt;div class="classify_r_ul"&gt;&lt;span&gt;热门新闻&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+{ZL.Label id="输出标题_不带时间_带计数" NodeID="51" TitleNum="25" ShowNum="8" /}
+&lt;/div&gt;
+&lt;/ul&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,81 @@
+﻿{ZL.Source id="专题数据源标签"/}
+{ZL.Source id="专题节点数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="专题节点数据源标签" FD="SpecName" page="0"/}_{$SiteName/}</title> 
+<meta name="Keywords" content="{SField sid="专题节点数据源标签" FD="SpecKeyword" page="0"/}" />
+<meta name="description" content="{SField sid="专题节点数据源标签" FD="SpecDescriptive" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" /> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script> 
+<style type="text/css">
+.home_nav .navbar-default .navbar-nav .home_n{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#F00;} 
+.topics_nav{ background:#980808;}
+.topics_nav li{ float:left; width:10em; height:3.5em; line-height:3.5em; border-right:2px solid #ccc;}
+.topics_nav li:last-child{ border-right:none;}
+.topics_nav li a{ display:block; font-family:"微软雅黑"; font-size:1.2em; color:#fff;} 
+.topics_nav li a .fa{ margin-right:5px; font-size:1.3em;}
+.topics_nav li a img{ margin-left:5px;}
+.topics_nav li a:hover{ text-decoration:none; background:#FF8A00;}
+.topics_main{ margin-top:1em;}
+.topics_title{ padding-right:0.5em; height:40px; line-height:40px; background:#eee;}
+.topics_title .pull-left{ display:block; padding-left:40px; width:120px; height:45px; line-height:40px; background:url({$CssDir/}images/topic_main.png) center no-repeat; color:#fff; font-family:"微软雅黑"; font-size:16px; }
+.topics_title a{ color:#999;}
+.topics_list{ margin-top:1em;}
+.topics_item_title{ padding-left:10px; padding-right:10px; height:30px; line-height:30px; border-bottom:2px solid #8C0108;}
+.topics_item_title .pull-left{ display:block; width:100px; height:30px; line-height:30px; background:#8C0108; color:#fff; text-align:center; font-family:"微软雅黑"; font-size:16px;}
+.topics_item_title a{ color:#333;}
+.topics_list_item li{ padding-left:1em; min-height:2.5em; line-height:2.5em; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_list_item li a{ color:#333;}
+.topics_pagelist .list-unstyled li{ padding-left:1em; min-height:30px; line-height:30px; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat; }
+.topics_pagelist .list-unstyled li a{ color:#333;}
+.mysite{ margin-top:1em;}
+</style>
+</head>
+<body>
+<img src="{$CssDir/}images/topics.jpg" class="center-block img-responsive" alt="教育专题" />
+<div class="topics_nav">
+<div class="container">
+<ul class="list-unstyled text-center">
+<li><a href="{ZL:GetSpecialList(1)/}"><i class="fa fa-home"></i>专题首页<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(1)/}">活动动态<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(3)/}">领导讲话<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(4)/}">文件资料<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(6)/}">学习交流<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li> 
+<li><a href="{ZL:GetSpecialPage(7)/}">经典论述<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li> 
+</ul>
+</div>
+</div>
+<div class="container mysite">
+<ol class="breadcrumb">
+<li>当期位置：<a href="/">首页</a></li>
+<li><a href="{ZL:GetSpecialList({SField sid="专题节点数据源标签" FD="SpecCate" page="0"/})/}">{SField sid="专题数据源标签" FD="SpecCateName" page="0"/}</a></li>
+<li><a href="{ZL:GetSpecialPage({SField sid="专题节点数据源标签" FD="SpecID" page="0"/})/}">{SField sid="专题节点数据源标签" FD="SpecName" page="0"/}</a></li>
+</ol>
+</div>
+<div class="container topics_pagelist"> 
+{ZL.Label id="输出专题节点信息列表_分页" NodeID="{SField sid="专题节点数据源标签" FD="SpecID" page="0"/}" TitleNum="60" ShowNum="10" /} 
+</div>
+{ZL.Label id="全站底部"/}
+</div>
+</body>
+</html>
+<script>
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+</script>

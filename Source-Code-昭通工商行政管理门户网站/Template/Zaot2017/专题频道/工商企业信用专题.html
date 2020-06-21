@@ -1,0 +1,153 @@
+{ZL.Source id="专题数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>工商企业信用专题_{$SiteName/}</title> 
+<meta name="Keywords" content="{SField sid="专题数据源标签" FD="SpecCateKeyword" page="0"/}" />
+<meta name="description" content="{SField sid="专题数据源标签" FD="SpecCateDescriptive" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" /> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script> 
+<style type="text/css"> 
+.topics_nav{ background:#258FDD;}
+.topics_nav li{ float:left; width:10em; height:3.5em; line-height:3.5em; border-right:2px solid #ccc;}
+.topics_nav li:last-child{ border-right:none;}
+.topics_nav li a{ display:block; font-family:"微软雅黑"; font-size:1.2em; color:#fff;} 
+.topics_nav li a .fa{ margin-right:5px; font-size:1.3em;}
+.topics_nav li a img{ margin-left:5px;}
+.topics_nav li a:hover{ text-decoration:none; background:#FF8A00;}
+.topics_main{ margin-top:1em;}
+.topics_title{ padding-right:0.5em; height:40px; line-height:40px; background:#eee;}
+.topics_title .pull-left{ display:block; padding-left:40px; width:120px; height:45px; line-height:40px; background:url({$CssDir/}images/topic_mainx.png) center no-repeat; color:#fff; font-family:"微软雅黑"; font-size:16px; }
+.topics_title a{ color:#999;}
+.topics_list{ margin-top:1em;}
+.topics_item_title{ padding-left:10px; padding-right:10px; height:30px; line-height:30px; border-bottom:2px solid #258FDD;}
+.topics_item_title .pull-left{ display:block; width:100px; height:30px; line-height:30px; background:#258FDD; color:#fff; text-align:center; font-family:"微软雅黑"; font-size:16px;}
+.topics_item_title a{ color:#333;}
+.topics_list_item li{ padding-left:1em; min-height:2.5em; line-height:2.5em; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_list_item li a{ color:#333;}
+.topics_recno li{ padding-left:1em; min-height:30px; line-height:30px; border-bottom:1px dashed #ccc; background:url({$CssDir/}images/topic_icon.png) left no-repeat;}
+.topics_recno li a{ color:#333;}
+.topics_main #carousel-example-generic img{ width:100%; max-height:250px;}
+.topics_main #carousel-example-generic a{ color:#fff;}
+.topics_rec span{ line-height:40px; }
+.topics_rec span a{ color:#f00; font-weight:bold;}
+.topics_rec p{ min-height:60px; color:#666; text-indent:2em; line-height:24px;}
+</style>
+</head>
+<body>
+<img src="{$CssDir/}images/qyxy_head.jpg" class="center-block img-responsive" alt="工商企业信用专题" />
+
+<div class="container">
+<div class="padding15">
+<div class="topics_nav">
+<ul class="list-unstyled text-center">
+<li><a href="{ZL:GetSpecialList(2)/}"><i class="fa fa-home"></i>专题首页<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(9)/}">*监督动态<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(10)/}">*政策法规<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="{ZL:GetSpecialPage(11)/}">*信用公示<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="/vfilm.html">*操作指南<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li><a href="http://gsxt.ynaic.gov.cn/notice/">*公示系统<img src="{$CssDir/}images/topics_point.png" alt="" /></a></li>
+<li>
+</ul>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="container topics_main"> 
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12"> 
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li> 
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+{ZL.Label id="输出指定专题推荐信息_带缩略图" NodeID="9" TitleNum="40" ShowNum="2" /} 
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div> 
+</div> 
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">  
+<div class="topics_title"><span class="pull-right"><a href="{ZL:GetSpecialPage(9)/}" target="_blank">更多</a></span><span class="pull-left">最新动态</span></div> 
+<div class="clearfix"></div>
+{ZL.Label id="输出指定专题推荐信息_带简介" NodeID="9" TitleNum="30" ShowNum="1" SynNum="1600" /}
+<div class="topics_recno">
+<ul class="list-unstyled">
+{ZL.Label id="输出专题节点下最新文章列表_带时间不分页" NodeID="9" TitleNum="60" ShowNum="3" /}
+</ul>
+</div>
+</div>
+</div> 
+<div class="container topics_list">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding5 topics_list_item">
+<div class="topics_item_title"><span class="pull-right"><a href="{ZL:GetSpecialPage(10)/}">更多</a></span><span class="pull-left">*政策法规</span></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出专题节点下最新文章列表_带时间不分页" NodeID="10" TitleNum="60" ShowNum="6" /}
+</ul>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding5 topics_list_item">
+<div class="topics_item_title"><span class="pull-right"><a href="{ZL:GetSpecialPage(11)/}">更多</a></span><span class="pull-left">*信用公示</span></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出专题节点下最新文章列表_带时间不分页" NodeID="11" TitleNum="60" ShowNum="6" /}
+</ul>
+</div>
+</div>
+<div class="container topics_ad">
+<div class="padding5"> 
+<img src="{$CssDir/}images/topic_ad.jpg" class="center-block img-responsive" alt="坚持用十八大统一思想" />
+</div>
+</div> 
+<div class="container topics_list">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding5 topics_list_item">
+<div class="topics_item_title"><span class="pull-right"><a href="{ZL:GetSpecialPage(9)/}">更多</a></span><span class="pull-left">*监督动态</span></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出专题节点下最新文章列表_带时间不分页" NodeID="10" TitleNum="60" ShowNum="6" /}
+</ul>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding5 topics_list_item">
+<div class="topics_item_title"><span class="pull-right"><a href="{ZL:GetSpecialPage(13)/}">更多</a></span><span class="pull-left">*工作探讨</span></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出专题节点下最新文章列表_带时间不分页" NodeID="11" TitleNum="60" ShowNum="6" /}
+</ul>
+</div>
+  </div>
+
+{ZL.Label id="全站底部"/}
+</div>
+</body>
+</html>
+<script type="text/javascript">
+$().ready(function(e) {
+    $("#carousel-example-generic .item").eq(0).addClass("active");
+});
+</script>
+<script>
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+</script>

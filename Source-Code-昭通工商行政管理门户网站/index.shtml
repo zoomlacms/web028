@@ -1,0 +1,949 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office//Template/Zaot2017/style/images/win8_symbol_140x140.png"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>•昭通市市场监督管理局_首页</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/> 
+<link href="/Template/Zaot2017/style/global.css?Version=20190522" rel="stylesheet" type="text/css"> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript" ></script>
+<style>
+.home_nav .navbar-default .navbar-nav .home_n a{ color:#F00;}
+</style>
+</head>
+<body>
+<div class="top hidden-xs">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top_l">
+<a href="/" target="_blank"><img src="/Template/Zaot2017/style/Images/logo.png" alt="•昭通市市场监督管理局" class="img-responsive"></a>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top_r">
+<div class="clearfix"></div>
+<div class=" pull-right top_r_div">
+<form action="/search/SearchList" method="get" style="width:200px;">
+<div class="input-group">
+<input name="keyword" type="text" placeholder="全站检索" id="TxtKeyword" class="form-control" />
+<span class="input-group-btn">
+<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+<div class="clearfix"></div>
+<div>
+<p class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding0">最新通报：</p>
+<div id="demo" class="col-lg-10 col-md-10 col-sm-10 col-xs-12 qimo8">
+<div class="qimo">
+<div id="demo1">
+<ul class="list-unstyled">
+
+<li><a href="/Item/8812.aspx" target="_blank"  title="昭通市市场监督管理局关于注销水富犀牛山泉水有限公司食品生产许可证的公告" style="">昭通市市场监督管理局关于注销水</a></li>
+
+<li><a href="/Item/8809.aspx" target="_blank"  title="昭通市市场监督管理局关于注销药品经营许可证及药品经营质量管理规范认证证书的公告 (2019年第3期）" style="">昭通市市场监督管理局关于注销药</a></li>
+
+<li><a href="/Item/8808.aspx" target="_blank"  title="昭通市2019年第１轮药品零售企业 飞行检查结果信息公开" style="">昭通市2019年第１轮药品零售企业</a></li>
+
+<li><a href="/Item/8807.aspx" target="_blank"  title="昭通市市场监督管理局 关于注销药品经营许可证的公告 (2019年７月）" style="">昭通市市场监督管理局 关于注销</a></li>
+
+<li><a href="/Item/8787.aspx" target="_blank"  title="昭阳区发放《药品经营许可证》公示公告 （第2019001号）" style="">昭阳区发放《药品经营许可证》公</a></li>
+
+<li><a href="/Item/8778.aspx" target="_blank"  title="镇雄县市场监督管理局无主财产处理公告" style="">镇雄县市场监督管理局无主财产处</a></li>
+
+<li><a href="/Item/8777.aspx" target="_blank"  title="镇雄县市场监督管理局无主财产处理公告" style="">镇雄县市场监督管理局无主财产处</a></li>
+	
+</ul>
+</div>
+<div id="demo2"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--顶部结束-->
+
+<div id="scolls">
+<div class="home_nav" id="home_nav" >
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand visible-xs" href="/"><img src="/Template/Zaot2017/style/Images/logo.png" alt="昭通市市场监督管理局" /></a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav nav_ul">
+<li><a href="/">首页</a></li>
+<li><a href="/Class_52/Default.aspx">工作动态</a></li>
+<li><a href="/Class_120/Default.aspx">政务公开</a></li>
+<li><a href="/Class_59/Default.aspx">办事指南</a></li>
+<!--
+<li><a href="/Class_69/Default.aspx">法治在线</a></li>
+<li><a href="/Class_14/Default.aspx">组织结构</a></li>
+<li><a href="/Class_56/Default.aspx">党建工作</a></li>
+<li><a href="/Class_72/Default.aspx">党风廉政</a></li>
+<li><a href="/Class_112/Default.aspx">学习园地</a></li>
+<li><a href="/Class_6155/Default.aspx">扫黑除恶专项斗争</a></li>
+-->
+<li><a href="#"  class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">专题专栏</a>
+ <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="/Class_6143/Default.aspx">昭通市“双随机、一公开”跨部门联合 抽查监管专栏</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="/Class_6152/Default.aspx">人大代表建议和政协提案办理工作</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="/Class_6155/Default.aspx">扫黑除恶专项斗争</a></li>
+    </ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+<style>
+#carousel-example-generic img{ width:100%; height:300px; }
+</style>
+<div class="container" style="margin-top:1em;">
+<div class="row">
+<div class="visible-lg">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 picnews_l">
+<p class="title"><img src="/Template/Zaot2017/style/images/pic3.jpg" alt="" /><span>图片新闻</span></p>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+
+
+<div class="item item_list0 active">
+<a href="http://www.gov.cn/xinwen/2019-04/23/content_5385341.htm" target="_blank"><img src="/UploadFiles/190425ad.jpg" class="img-responsive" alt="你用国务院“互联网+督查”平台了吗？（附40秒视频教程）"></a>
+<div class="carousel-caption">
+<p><a href="http://www.gov.cn/xinwen/2019-04/23/content_5385341.htm" target="_blank" title="你用国务院“互联网+督查”平台了吗？（附40秒视频教程）"> </a></p>
+</div>
+</div>
+
+
+<div class="item item_list0 ">
+<a href="/Item/8681.aspx" target="_blank"><img src="/UploadFiles/Image/20181204/6367951928151144532080374.jpg" class="img-responsive" alt="宪法宣传日"></a>
+<div class="carousel-caption">
+<p><a href="http://19th.cpcnews.cn/" target="_blank" title="宪法宣传日"> </a></p>
+</div>
+</div>
+
+<div class="item item_list0">
+<a href="http://19th.cpcnews.cn/" target="_blank"><img src="/uploadfiles/image/20171012/6364341663779440507865332.jpg" class="img-responsive" alt="19大会议专题"></a>
+<div class="carousel-caption">
+<p><a href="http://19th.cpcnews.cn/" target="_blank" title="19大会议专题"> 19大会议专题</a></p>
+</div>
+</div>
+
+
+
+<div class="item item_list1">
+<a href="/Item/8409.aspx" target="_blank"><img src="/uploadfiles/system/temp/20180205/20180205111921dgxs.jpg" class="img-responsive" alt="形式主义、官僚主义新表现3"></a>
+<div class="carousel-caption">
+<p><a href="/Item/8409.aspx" target="_blank" title="形式主义、官僚主义新表现3"> 形式主义、官僚主义新表现3</a></p>
+</div>
+</div>
+
+<div class="item item_list2">
+<a href="/Item/8400.aspx" target="_blank"><img src="/uploadfiles/system/temp/20180129/20180129113547u1si.jpg" class="img-responsive" alt="形式主义、官僚主义新表现2"></a>
+<div class="carousel-caption">
+<p><a href="/Item/8400.aspx" target="_blank" title="形式主义、官僚主义新表现2"> 形式主义、官僚主义新表现2</a></p>
+</div>
+</div>
+
+<div class="item item_list3">
+<a href="/Item/8395.aspx" target="_blank"><img src="/uploadfiles/system/temp/20180117/201801171544240npi.jpg" class="img-responsive" alt="形式主义、官僚主义新表现1"></a>
+<div class="carousel-caption">
+<p><a href="/Item/8395.aspx" target="_blank" title="形式主义、官僚主义新表现1"> 形式主义、官僚主义新表现1</a></p>
+</div>
+</div>
+
+<div class="item item_list4">
+<a href="/Item/8387.aspx" target="_blank"><img src="/uploadfiles/system/temp/20180105/20180105145047ebwz.jpg" class="img-responsive" alt="召开查处取缔无证无照经营工作联席会议"></a>
+<div class="carousel-caption">
+<p><a href="/Item/8387.aspx" target="_blank" title="召开查处取缔无证无照经营工作联席会议"> 召开查处取缔无证无照经营工作联席会议</a></p>
+</div>
+</div>
+
+
+</div>
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+<div class="home_tabs_mes">
+<!-- Nav tabs -->
+<div class="title" ><p>工商动态</p></div>
+<!-- Tab panes -->
+<div class="tab-content picnews_o">
+<div class="tab-pane active" id="message" role="tabpanel">
+<div  class="picnews_o_t">
+<a href="/Item/8409.aspx" target="_blank"  title="形式主义、官僚主义新表现3">形式主义、官僚主义新表现3</a>
+<p><a href="/Item/8409.aspx" target="_blank">[详情]</a></p>
+</div> 
+
+<ul class="list-unstyled">
+
+<li><a href="/Item/8812.aspx" target="_blank"  title="昭通市市场监督管理局关于注销水富犀牛山泉水有限公司食品生产许可证的公告">昭通市市场监督管理局关于注销水富犀牛山泉水有限公司食品</a><span class="pull-right">19/07/22</span></li>
+
+<li><a href="/Item/8811.aspx" target="_blank"  title="昭通市人民政府食品安全委员会办公室关于食用野生菌的预警公告">昭通市人民政府食品安全委员会办公室关于食用野生菌的预警</a><span class="pull-right">19/07/10</span></li>
+
+<li><a href="/Item/8810.aspx" target="_blank"  title="扫描下方二维码 即可向全国扫黑办举报黑恶犯罪线索">扫描下方二维码 即可向全国扫黑办举报黑恶犯罪线索</a><span class="pull-right">19/07/10</span></li>
+
+<li><a href="/Item/8809.aspx" target="_blank"  title="昭通市市场监督管理局关于注销药品经营许可证及药品经营质量管理规范认证证书的公告 (2019年第3期）">昭通市市场监督管理局关于注销药品经营许可证及药品经营质</a><span class="pull-right">19/07/05</span></li>
+
+<li><a href="/Item/8808.aspx" target="_blank"  title="昭通市2019年第１轮药品零售企业 飞行检查结果信息公开">昭通市2019年第１轮药品零售企业 飞行检查结果信息公开</a><span class="pull-right">19/07/05</span></li>
+
+<li><a href="/Item/8807.aspx" target="_blank"  title="昭通市市场监督管理局 关于注销药品经营许可证的公告 (2019年７月）">昭通市市场监督管理局 关于注销药品经营许可证的公告 (201</a><span class="pull-right">19/07/05</span></li>
+
+<li><a href="/Item/8789.aspx" target="_blank"  title="2019年消费提示——选择正规驾校 愉快学习技能">2019年消费提示——选择正规驾校 愉快学习技能</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8788.aspx" target="_blank"  title="2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食用">2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8787.aspx" target="_blank"  title="昭阳区发放《药品经营许可证》公示公告 （第2019001号）">昭阳区发放《药品经营许可证》公示公告 （第2019001号）</a><span class="pull-right">19/05/28</span></li>
+
+</ul>
+</div>
+<div class="tab-pane" id="message1" role="tabpanel">
+<script language="javascript" type="text/javascript" charset="UTF-8" src="http://www.gov.cn/pushinfo/v150203/pushinfo.js"></script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 picnews_r">
+<div class="picnews_r_o"><img src="/Template/Zaot2017/style/images/pic10.jpg" alt=""><span>在线业务系统</span></div>
+<ul class="list-unstyled">
+<li><img src="/Template/Zaot2017/style/images/pic7.jpg" alt=""><a href="http://gsxt.ynaic.gov.cn/notice/" target="_blank">企业信用信息公示系统</a></li>
+<li><img src="/Template/Zaot2017/style/images/pic8.jpg" alt=""><a href="http://gsxt.ynaic.gov.cn/consumerw/sgsreg.jsp" target="_blank">网上12315</a></li>
+<li><img src="/Template/Zaot2017/style/images/pic9.jpg" alt=""><a href="http://wljg.ynaic.gov.cn" target="_blank">网络商品交易监管</a></li>
+<li><img src="/Template/Zaot2017/style/images/pic20.jpg" alt=""><a href="http://gsxt.ynaic.gov.cn/webportal/" target="_blank">云南省工商办事大厅系统</a></li>
+<li><img src="/Template/Zaot2017/style/images/pic8.jpg" alt=""><a href="http://www.saic.gov.cn/" target="_blank">国家市场监督管理总局</a></li>
+<li><img src="/Template/Zaot2017/style/images/pic8.jpg" alt=""><a href="http://www.ynaic.gov.cn" target="_blank">云南省市场监督管理局</a></li>
+</ul>
+
+<div class="picnews_r_i">
+<div class="picnews_r_o"><img src="/Template/Zaot2017/style/images/pic10.jpg" alt=""><span>通知公告</span><a href="/Class_30/Default.aspx" target="_blank"  class="pull-right">更多>></a></div>
+
+<script type="text/javascript">marqueeStart(1, "left");</script>
+<div id="marquee2" class="marqueetop">
+<ul id="marquee2_1">
+
+<li><a href="/Item/8812.aspx" target="_blank"  title="昭通市市场监督管理局关于注销水富犀牛山泉水有限公司食品生产许可证的公告" style="">昭通市市场监督管理局关于注销水富犀牛山泉</a></li>
+
+<li><a href="/Item/8809.aspx" target="_blank"  title="昭通市市场监督管理局关于注销药品经营许可证及药品经营质量管理规范认证证书的公告 (2019年第3期）" style="">昭通市市场监督管理局关于注销药品经营许可</a></li>
+
+<li><a href="/Item/8808.aspx" target="_blank"  title="昭通市2019年第１轮药品零售企业 飞行检查结果信息公开" style="">昭通市2019年第１轮药品零售企业 飞行检查</a></li>
+
+<li><a href="/Item/8807.aspx" target="_blank"  title="昭通市市场监督管理局 关于注销药品经营许可证的公告 (2019年７月）" style="">昭通市市场监督管理局 关于注销药品经营许</a></li>
+
+<li><a href="/Item/8787.aspx" target="_blank"  title="昭阳区发放《药品经营许可证》公示公告 （第2019001号）" style="">昭阳区发放《药品经营许可证》公示公告 （</a></li>
+
+<li><a href="/Item/8778.aspx" target="_blank"  title="镇雄县市场监督管理局无主财产处理公告" style="">镇雄县市场监督管理局无主财产处理公告</a></li>
+
+<li><a href="/Item/8777.aspx" target="_blank"  title="镇雄县市场监督管理局无主财产处理公告" style="">镇雄县市场监督管理局无主财产处理公告</a></li>
+
+<li><a href="/Item/8776.aspx" target="_blank"  title="镇雄县市场监督管理局无主财产处理公告" style="">镇雄县市场监督管理局无主财产处理公告</a></li>
+
+<li><a href="/Item/8775.aspx" target="_blank"  title="昭通市市场监督管理局关于注销药品经营许可证的公告（2019年4月）" style="">昭通市市场监督管理局关于注销药品经营许可</a></li>
+
+<li><a href="/Item/8761.aspx" target="_blank"  title="云南省市场监督管理局关于调整下放企业登记管辖权限的通告" style="">云南省市场监督管理局关于调整下放企业登记</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container ad2018">
+<a href="http://toupiao.www.gov.cn/100dudian/index.htm" target="_blank"><img src="/UploadFiles/2018ad3.jpg?v=5" alt="2018活动" /></a>
+</div>
+
+<div class="container" style="margin-top:1em;">
+<div class="row padding10">
+<!--
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding5">
+<iframe id="myFrame" scrolling="no" frameborder="0" src="/Class_46/NodePage.aspx" style="width:100%;height:40em"></iframe>
+</div>
+-->
+
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding5">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>工作动态</span><a href="/Class_52/Default.aspx" target="_blank">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8811.aspx" target="_blank"  title="昭通市人民政府食品安全委员会办公室关于食用野生菌的预警公告">昭通市人民政府食品安全委员会办公室关于食用野生菌的预警公告</a><span class="pull-right">19/07/10</span></li>
+
+<li><a href="/Item/8810.aspx" target="_blank"  title="扫描下方二维码 即可向全国扫黑办举报黑恶犯罪线索">扫描下方二维码 即可向全国扫黑办举报黑恶犯罪线索</a><span class="pull-right">19/07/10</span></li>
+
+<li><a href="/Item/8789.aspx" target="_blank"  title="2019年消费提示——选择正规驾校 愉快学习技能">2019年消费提示——选择正规驾校 愉快学习技能</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8788.aspx" target="_blank"  title="2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食用">2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食用</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8783.aspx" target="_blank"  title="中共中央 国务院 关于深化改革加强食品安全工作的意见">中共中央 国务院 关于深化改革加强食品安全工作的意见</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8780.aspx" target="_blank"  title="云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台运用培训班">云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8779.aspx" target="_blank"  title="昭通市药品零售连锁企业GSP认证公示（2019年第1号）">昭通市药品零售连锁企业GSP认证公示（2019年第1号）</a><span class="pull-right">19/05/10</span></li>
+
+<li><a href="/Item/8774.aspx" target="_blank"  title="昭通市市场监督管理局关于加强公务员考试录用 市场监督管理工作的公告">昭通市市场监督管理局关于加强公务员考试录用 市场监督管理工作的公告</a><span class="pull-right">19/04/17</span></li>
+
+</div>
+</ul>
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding5">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>政务公开</span><a href="/Class_120/Default.aspx" target="_blank" class="pull-right">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8804.aspx" target="_blank"  title="昭通市工商局关于报送2018年度政府信息公开工作年度报告的报告">昭通市工商局关于报送2018年度政府信息公开工作年度报告的报告</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8795.aspx" target="_blank"  title="个体户怎么在网上注册">个体户怎么在网上注册</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8793.aspx" target="_blank"  title="云南省市场监督管理局关于公开征求《云南省电子营业执照管理暂行办法（征求意见稿）》意见的公告">云南省市场监督管理局关于公开征求《云南省电子营业执照管理暂行办法（征</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8792.aspx" target="_blank"  title="云南省知识产权局首次与世界知识产权组织合作共同举办马德里体系促进企业国际化研修班">云南省知识产权局首次与世界知识产权组织合作共同举办马德里体系促进企业</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8786.aspx" target="_blank"  title="中共中央 国务院 关于深化改革加强食品安全工作的意见">中共中央 国务院 关于深化改革加强食品安全工作的意见</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8782.aspx" target="_blank"  title="云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台运用培训班">云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8754.aspx" target="_blank"  title="市场监管总局关于发布2019年产品质量 国家监督抽查计划的公告">市场监管总局关于发布2019年产品质量 国家监督抽查计划的公告</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8753.aspx" target="_blank"  title="动产抵押登记办法（国家市场监督管理总局令第5号令）">动产抵押登记办法（国家市场监督管理总局令第5号令）</a><span class="pull-right">19/03/27</span></li>
+
+</div>
+</ul>
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding5">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>办事指南</span><a href="/Class_59/Default.aspx" target="_blank" class="pull-right">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8738.aspx" target="_blank"  title="01.多人有限公司（执行董事、监事）设立登记">01.多人有限公司（执行董事、监事）设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8737.aspx" target="_blank"  title="02.多人有限公司（董事会、监事）设立登记">02.多人有限公司（董事会、监事）设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8736.aspx" target="_blank"  title="03.多人有限公司（董事会，监事会）设立登记">03.多人有限公司（董事会，监事会）设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8735.aspx" target="_blank"  title="04.多人有限公司（执行董事、监事会）">04.多人有限公司（执行董事、监事会）</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8734.aspx" target="_blank"  title="05.自然人独资有限公司设立登记">05.自然人独资有限公司设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8733.aspx" target="_blank"  title="06.法人独资有限公司（设执行董事、监事）设立登记">06.法人独资有限公司（设执行董事、监事）设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8732.aspx" target="_blank"  title="07.法人独资有限公司（设董事会、监事）设立登记">07.法人独资有限公司（设董事会、监事）设立登记</a><span class="pull-right">19/02/26</span></li>
+
+<li><a href="/Item/8731.aspx" target="_blank"  title="08.法人独资有限公司（设执行董事、监事会）">08.法人独资有限公司（设执行董事、监事会）</a><span class="pull-right">19/02/26</span></li>
+
+</div>
+</ul>
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding5">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>法治在线</span><a href="/Class_121/Default.aspx" target="_blank" class="pull-right">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8801.aspx" target="_blank"  title="广告管理条例">广告管理条例</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8797.aspx" target="_blank"  title="中华人民共和国民法通则">中华人民共和国民法通则</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8796.aspx" target="_blank"  title="中华人民共和国档案法">中华人民共和国档案法</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8773.aspx" target="_blank"  title="昭通市市场监督管理局2019年全民国家安全教育日宣传口号">昭通市市场监督管理局2019年全民国家安全教育日宣传口号</a><span class="pull-right">19/04/15</span></li>
+
+<li><a href="/Item/8772.aspx" target="_blank"  title="昭通市市场监督管理局2019年国家安全教育日法律法规宣传">昭通市市场监督管理局2019年国家安全教育日法律法规宣传</a><span class="pull-right">19/04/15</span></li>
+
+<li><a href="/Item/8756.aspx" target="_blank"  title="中华人民共和国计量法">中华人民共和国计量法</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8755.aspx" target="_blank"  title="动产抵押登记办法（国家市场监督管理总局令第5号令）">动产抵押登记办法（国家市场监督管理总局令第5号令）</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8681.aspx" target="_blank"  title="昭通市工商局2018年12.4法制宣传">昭通市工商局2018年12.4法制宣传</a><span class="pull-right">18/12/04</span></li>
+
+</div>
+</ul>
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding3 hidden">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>学习园地</span><a href="/Class_37/Default.aspx" target="_blank" class="pull-right">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8791.aspx" target="_blank"  title="2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食用">2019年消费提示——野生菌好吃，但一定要慎重采选和谨慎食用</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8790.aspx" target="_blank"  title="2019年消费提示——选择正规驾校 愉快学习技能">2019年消费提示——选择正规驾校 愉快学习技能</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8785.aspx" target="_blank"  title="中共中央 国务院 关于深化改革加强食品安全工作的意见">中共中央 国务院 关于深化改革加强食品安全工作的意见</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8781.aspx" target="_blank"  title="云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台运用培训班">云南省市场监管局举办全省整合建设12315行政执法体系过渡期投诉举报平台</a><span class="pull-right">19/05/23</span></li>
+
+<li><a href="/Item/8760.aspx" target="_blank"  title="云南省市场监督管理局关于调整下放企业登记管辖权限的通告">云南省市场监督管理局关于调整下放企业登记管辖权限的通告</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8759.aspx" target="_blank"  title="云南省市场监督管理局关于实行企业 登记身份管理实名验证的公告">云南省市场监督管理局关于实行企业 登记身份管理实名验证的公告</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8626.aspx" target="_blank"  title="关于企业、农民专业合作社、个体工商户、在华经营外国企业、外国企业常驻代表机构报送2017年度报告的公告">关于企业、农民专业合作社、个体工商户、在华经营外国企业、外国企业常驻</a><span class="pull-right">18/07/30</span></li>
+
+<li><a href="/Item/8403.aspx" target="_blank"  title="适用新《反不正当竞争法》认定商业贿赂分析">适用新《反不正当竞争法》认定商业贿赂分析</a><span class="pull-right">18/01/31</span></li>
+
+</div>
+</ul>
+<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12 list-unstyled padding3 hidden">
+<div class="classify_r_b">
+<div class="classify_r_ul"><span>登记改革</span><a href="/Class_118/Default.aspx" target="_blank" class="pull-right">更多>></a><div class="clearfix"></div></div>
+
+<li><a href="/Item/8794.aspx" target="_blank"  title="营业执照正本遗失，补办需要哪些材料，以及补办流程是什么？">营业执照正本遗失，补办需要哪些材料，以及补办流程是什么？</a><span class="pull-right">19/06/17</span></li>
+
+<li><a href="/Item/8758.aspx" target="_blank"  title="云南省市场监督管理局关于实行企业登记身份管理实名验证的公告">云南省市场监督管理局关于实行企业登记身份管理实名验证的公告</a><span class="pull-right">19/03/27</span></li>
+
+<li><a href="/Item/8627.aspx" target="_blank"  title="“多证”变“一证”的高速路">“多证”变“一证”的高速路</a><span class="pull-right">18/07/30</span></li>
+
+<li><a href="/Item/4368.aspx" target="_blank"  title="昭通市工商局召开电商企业行政指导约谈会">昭通市工商局召开电商企业行政指导约谈会</a><span class="pull-right">17/03/20</span></li>
+
+<li><a href="/Item/4351.aspx" target="_blank"  title="“企业简易注销登记改革”相关问题">“企业简易注销登记改革”相关问题</a><span class="pull-right">17/03/02</span></li>
+
+<li><a href="/Item/4349.aspx" target="_blank"  title="市工商局组织企业年报和非公党建信息管理系统操作规范专题培训">市工商局组织企业年报和非公党建信息管理系统操作规范专题培训</a><span class="pull-right">17/02/20</span></li>
+
+<li><a href="/Item/4333.aspx" target="_blank"  title="对自然人网店进行工商登记问题的认识">对自然人网店进行工商登记问题的认识</a><span class="pull-right">17/02/08</span></li>
+
+<li><a href="/Item/4320.aspx" target="_blank"  title="中国人民银行 工商总局关于个体工商户“两证整合”登记制度改革涉及银行账户管理有关事项的通知">中国人民银行 工商总局关于个体工商户“两证整合”登记制度改革涉及银行</a><span class="pull-right">17/01/18</span></li>
+
+</div>
+</ul>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<!--<div class="container">
+<div class="links">
+<p hidden>友情链接<a href="/Class_39/Default.aspx" target="_blank" class="pull-right">更多>></a></p>
+<div class="links_b">
+<ul class="list-unstyled">
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding3"><a href="http://www.ynjy.cn/" target="_blank"><img src="/Template/Zaot2017/style/Images/pic49.jpg" alt="云南省教育厅" /></a></li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding3"><a href="http://www.yn.gov.cn/" target="_blank"><img src="/Template/Zaot2017/style/Images/pic48.jpg" alt="云南省人民政府" /></a></li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding3"><a href="http://xxgk.yn.gov.cn/default.aspx" target="_blank"><img src="/Template/Zaot2017/style/Images/pic47.jpg" alt="云南省政府信息公开网" /></a></li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding3"><a href="http://www.ynaic.gov.cn" target="_blank"><img src="" alt="云南省工商局" /></a></li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding3"><a href="http://www.saic.gov.cn/" target="_blank"><img src="/Template/Zaot2017/style/Images/pic26.jpg" alt="国家工商总局" /></a></li>
+
+<div class="clearfix"></div>
+</ul>
+
+<div class="link_item">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 col-md-offset-1">
+<select class="form-control">
+<option value="">--国内工商导航--</option>
+
+<option value="http://www.saic.gov.cn/" >国家市场监督管理总局</option >
+
+<option value="http://www.hegs.gov.cn" >河北省工商行政管理局</option >
+
+<option value="http://www.xags.gov.cn" >西安市工商管理行政局</option >
+
+<option value="http://www.cdgs.gov.cn/" >成都市工商行政管理局</option >
+
+<option value="http://www.szmqs.gov.cn/" >深圳市市场和质量监督管理局</option >
+
+<option value="http://www.gzaic.gov.cn/" > 广州市工商行政管理局</option >
+
+<option value="http://www.qdaic.gov.cn/" >青岛市工商行政管理局</option >
+
+<option value="http://www.jngsj.gov.cn/" >济南市工商行政管理局 </option >
+
+<option value="https://www.xmscjg.gov.cn/" >厦门市市场监督管理局网站</option >
+
+<option value="http://www.nbaic.gov.cn" >宁波市市场监督管理局</option >
+
+<option value="http://www.hzscjg.gov.cn" >杭州市市场监督管理局</option >
+
+<option value="http://www.njgs.gov.cn/" >南京市工商行政管理局</option >
+
+<option value="http://www.hrbmsa.gov.cn/" >哈尔滨市市场监督管理局</option >
+
+<option value="http://www.ccgs.gov.cn/" >长春市工商行政管理局</option >
+
+<option value="https://www.dlgs.gov.cn/" >大连市工商行政管理局 </option >
+
+<option value="http://www.sygsj.gov.cn" >沈阳市工商行政管理局</option >
+
+<option value="http://www.xjaic.gov.cn" >新疆维吾尔自治区工商行政管理局</option >
+
+<option value="http://www.ngsh.gov.cn/" >宁夏回族自治区工商行政管理局</option >
+
+<option value="http://www.qhaic.gov.cn/" >青海省工商管理行政局</option >
+
+<option value="http://www.snaic.gov.cn/" >陕西省工商管理行政局</option >
+
+<option value="http://www.xzaic.gov.cn/" >西藏工商行政管理局</option >
+
+<option value="http://www.ynaic.gov.cn" >云南省市场监督管理局</option >
+
+<option value="http://www.gzgs.gov.cn/" >贵州省工商行政管理局</option >
+
+<option value="http://www.scaic.gov.cn/" >四川省工商行政管理局</option >
+
+<option value="http://www.cqgs12315.cn/" >重庆市工商行政管理局</option >
+
+<option value="http://aic.hainan.gov.cn/" >海南省工商行政管理局</option >
+
+<option value="http://www.gxhd.gov.cn/index.htm" >广西壮族自治区工商行政管理局</option >
+
+<option value="http://www.gdgs.gov.cn/" >广东省工商行政管理局</option >
+
+<option value="http://www.egs.gov.cn" >湖北省工商行政管理局</option >
+
+<option value="http://www.haaic.gov.cn/index.html" >河南省工商行政管理局</option >
+
+<option value="http://www.sdaic.gov.cn/" >山东省工商行政管理局</option >
+
+<option value="http://www.jxaic.gov.cn/jx/index.html" >江西省工商行政管理局</option >
+
+<option value="http://www.fjaic.gov.cn/" >福建省工商行政管理局</option >
+
+<option value="http://www.ahaic.gov.cn/" >安徽省工商行政管理局</option >
+
+<option value="http://gsj.zj.gov.cn/" >浙江省工商行政管理</option >
+
+<option value="http://gsj.jiangsu.gov.cn/" >江苏省工商行政管理局</option >
+
+<option value="http://www.sgs.gov.cn/shaic/" >上海市工商行政管理局</option >
+
+<option value="http://www.hljaic.gov.cn/" >黑龙江省工商行政管理局</option >
+
+<option value="http://www.jlgs.gov.cn/" >吉林省工商行政管理局</option >
+
+<option value="http://www.lngs.gov.cn" >辽宁省工商行政管理局</option >
+
+<option value="http://www.nmgs.gov.cn/" >内蒙古自治区工商行政管理局</option >
+
+<option value="http://www.sxaic.gov.cn" >山西省工商行政管理局</option >
+
+<option value="http://www.tjmqa.gov.cn/" >天津市市场和质量监督管理委员</option >
+
+<option value="http://www.hd315.gov.cn/" >北京市工商行政管理局</option >
+
+<option value="http://www.hnaic.net.cn" >湖南省工商行政管理局</option >
+
+<option value="http://www.gsaic.gov.cn/" >甘肃省工商行政管理局</option >
+
+</select>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 ">
+<select class="form-control">
+<option value="">--本省工商导航--</option>
+
+<option value="http://www.kmaic.gov.cn/" >昆明市</option >
+
+<option value="http://www.qjgs.gov.cn/" >曲靖市</option >
+
+<option value="http://xinping.gov.cn/yxszfxxgk/sgsxzglj/" >玉溪市</option >
+
+<option value="http://www.baoshan.gov.cn/bmym/bssgsj.htm" >保山市</option >
+
+<option value="http://www.gsj.hh.gov.cn/" >红河州</option >
+
+<option value="http://www.ynws.gov.cn/zfxxgk/bmxxgk/zgsj.htm" >文山州</option >
+
+<option value="http://www.bnaic.gov.cn/" >西双版纳州</option >
+
+<option value="http://www.lcaic.gov.cn/" >临沧市</option >
+
+<option value="http://yn.cnadtop.com/" >广告协会</option >
+
+<option value="http://www.yn315.com/" >云南省消费者协会</option >
+
+</select>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+<select class="form-control">
+<option value="">--省级机构链接--</option>
+
+<option value="http://www.yn.gov.cn/" >云南省人民政府</option >
+
+<option value="http://www.yndpc.yn.gov.cn/" >云南省发展和改革委员会</option >
+
+<option value="http://www.ynetc.gov.cn/" >云南省工业和信息化委员会</option >
+
+<option value="http://www.ynstc.gov.cn/" >云南省科学技术厅</option >
+
+<option value="http://www.ga.yn.gov.cn/" >云南省公安厅</option >
+
+<option value="http://www.jjjc.yn.gov.cn/" >云南省监察委员会</option >
+
+<option value="http://www.sft.yn.gov.cn/" >云南省司法厅</option >
+
+<option value="http://www.ynf.gov.cn/" >云南省财政厅</option >
+
+<option value="http://www.ynhrss.gov.cn/" >云南省人力资源和社会保障厅</option >
+
+<option value="http://www.yndlr.gov.cn/" >云南省国土资源厅</option >
+
+<option value="http://www.ynjst.gov.cn/" >云南省住房和城乡建设厅</option >
+
+<option value="http://www.ynjtt.gov.cn/" >云南省交通运输厅</option >
+
+<option value="http://www.wcb.yn.gov.cn/" >云南省水利厅</option >
+
+<option value="http://www.ynagri.gov.cn/" >云南省农业厅 </option >
+
+<option value="http://www.ynly.gov.cn/" >云南省林业厅</option >
+
+<option value="http://www.bofcom.gov.cn/" >云南省商务厅</option >
+
+<option value="http://www.whyn.gov.cn/" >云南省文化厅</option >
+
+<option value="http://www.pbh.yn.gov.cn/" >云南省卫生和计划生育委员会</option >
+
+<option value="http://www.audit.yn.gov.cn/" >云南省审计厅</option >
+
+<option value="http://www.ltax.yn.gov.cn/" >云南省地方税务局</option >
+
+<option value="http://www.ynepb.gov.cn" >云南省环境保护厅</option >
+
+<option value="http://www.ynsport.cn/" >云南省体育局</option >
+
+<option value="http://www.ynqi.gov.cn/" >云南省质量技术监督局</option >
+
+<option value="http://www.ynsafety.gov.cn/" >云南省安全生产监督管理局 </option >
+
+<option value="http://www.yp.yn.gov.cn/" >云南省食品药品监督管理局</option >
+
+<option value="http://www.ynta.gov.cn/" >云南省旅游发展委员会</option >
+
+<option value="http://www.lsj.yn.gov.cn" >云南省粮食局</option >
+
+<option value="http://www.ynjy.gov.cn" >云南省监狱管理局</option >
+
+<option value="http://www.zffz.yn.gov.cn/" >云南省人民政府法制办公室</option >
+
+<option value="http://www.yfao.gov.cn/" >云南省人民政府外事办公室</option >
+
+<option value="http://www.ynqb.net.cn/" >云南省人民政府侨务办公室</option >
+
+<option value="http://yngfkgj.gov.cn/BlueModelNew/default.aspx" >云南省国防科技工业局</option >
+
+<option value="http://www.ynrf.gov.cn" >云南省人民防空办公室</option >
+
+<option value="http://www.ynjr.gov.cn/" >云南省人民政府金融办公室 </option >
+
+<option value="http://www.yn-invest.gov.cn/index.aspx" >云南省招商合作局</option >
+
+<option value="http://www.ynymw.cn/" >云南省移民开发局</option >
+
+</select>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+<select class="form-control">
+<option value="">--市级机构链接--</option>
+
+<option value="http://www.ztjjjc.gov.cn/" >市纪律检查委员会</option >
+
+<option value="http://www.ztst.gov.cn/" >市科学技术和知识产权局</option >
+
+<option value="http://www.zthrss.gov.cn/" >市人力资源和社会保障局</option >
+
+<option value="http://www.ztepb.gov.cn/" >市环境保护局</option >
+
+<option value="http://www.ztta.gov.cn/" >市旅游发展委员会</option >
+
+<option value="http://www.ynyudong.com/" >市渔洞局 </option >
+
+<option value="http://zjj.zt.gov.cn/" >市住房和城乡规划建设局</option >
+
+<option value="http://ynzt.forestry.gov.cn/" >市林业局</option >
+
+<option value="http://www.dazt.gov.cn/" >市档案局</option >
+
+<option value="http://yndlr.gov.cn" >市国土资源局</option >
+
+<option value="http://www.ztgjj.com/" >市住房公积金管理中心</option >
+
+<option value="http://www.ztedu.com/" >市教育局</option >
+
+<option value="http://www.zt.gov.cn/" >市人民政府</option >
+
+<option value="http://www.ztga.gov.cn/" >市公安局</option >
+
+<option value="http://www.ztmt.gov.cn/" >市煤炭工业局</option >
+
+<option value="http://www.ztzfw.gov.cn/" >市委政法委员会</option >
+
+<option value="http://fy.ztzfw.gov.cn/" >市中级人民法院</option >
+
+<option value="http://gzw.zt.gov.cn/" >市人民政府国有资产监督管理委员</option >
+
+<option value="http://www.ztstmtcj.cn/" >市天麻特产局</option >
+
+<option value="http://www.zhaotong.jcy.gov.cn/" >市人民检察院</option >
+
+<option value="http://www.ztkt.net/" >市开发投资公司</option >
+
+</select>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+<select class="form-control">
+<option value="">--其它相关链接--</option>
+
+<option value="http://www.sjtzj.com" >书法研究</option >
+
+<option value="http://www.73ic.com" >小程序开发</option >
+
+<option value="http://www.hao123.com" >网址大全</option >
+
+<option value="http://www.ziti163.com" >字体网</option >
+
+<option value="http://v.z01.com" >H5智能生成</option >
+
+</select>
+</div>
+</div>
+
+<div class="clearfix"></div>
+</div>
+</div>
+</div>-->
+<!--内容结束-->
+
+<div class="home_fudong">
+<a href="/Template/Zaot2017/style/images/180712.jpg"><img src="/Template/Zaot2017/style/images/180712.jpg" alt="2018国务院大督查小程序" /></a>
+<a href="/Item/8416.aspx" target="_blank">公布昭通市纪委驻市工商局纪检组举报方式公告</a>
+<a href="/uploadfiles/2018y4.pdf" target="_blank">第四次全国经济普查单位清查告知书</a>
+<a href="/UploadFiles/Video/194_1.mp4"><i class="fa fa-video-camera" aria-hidden="true"></i> 第四次全国经济普查宣传片-全国版</a>
+<a href="/UploadFiles/Video/194_2.mp4"><i class="fa fa-video-camera" aria-hidden="true"></i> 云南版</a>
+<a href="/UploadFiles/Video/194_3.mp4"><i class="fa fa-video-camera" aria-hidden="true"></i> 州市宣传版</a>
+</div>
+<!--页面浮动-->
+
+<div class="page">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 page_l">
+<ul class="list-unstyled">
+<li><a href="/guest/" target="_blank">互动交流</a></li>
+<li><a href="/Item/353.aspx" target="_blank">联系我们</a></li>
+<li><a href="/Item/354.aspx" target="_blank">版权保护</a></li>
+<li><a href="/Item/356.aspx" target="_blank">使用帮助</a></li>
+<li><a href="/Item/3666.aspx" target="_blank">网站地图</a></li>
+</ul>
+<div class="clearfix"></div>
+<div>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/25/374/0000/60887951/CA253740000608879510004.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<a href="http://www.yn.cyberpolice.cn:8000/" target="_blank"><img src="/Template/Zaot2017/style/images/pic39.jpg" alt="网警"/></a>
+<a href="http://www.12377.cn/" target="_blank"><img src="/Template/Zaot2017/style/images/pic40.jpg" alt="安网" /></a>
+<a href="http://121.43.68.40/exposure/jiucuo.html?site_code=5306000041&url=http%3A%2F%2Fwww.ztaic.gov.cn%2F" target="_blank"><img src="/UploadFiles/Image/jiucuo.png" alt="政府网站找错" /></a>
+<a href="http://zc.yn.gov.cn/zhaocuo/web_zhaocuo.jsp" target="_blank"><img src="/UploadFiles/Image/wzbgt.jpg" alt="云南省政府网站曝光台" /></a>
+</div>
+</div>
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 page_r">
+<!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center"><img src="/Template/Zaot2017/style/images/pic41.jpg" alt="" class=" img-responsive"></div>-->
+<p class="col-lg-9 col-md-9 col-sm-9 col-xs-12 list-unstyled padding0">
+Copyright 2018-2019 &copy; 主办单位：昭通市市场监督管理局<br/>
+地址：云南省昭通市昭阳区珠泉路157号   <br/>
+市场监管投诉：0870-12315  登记注册：0870-2839836  企业年报：0870-2839833<br/>
+监督电话：0870-2839809   扫黑除恶电话：0870-12315 网站维护：0870-2839638<br/>
+政府网站标识码：5306000041 建设维护：上海逐一软件科技有限公司<br/>
+建议使用1920*1080分辨率 <a href="http://www.miitbeian.gov.cn" target="_blank">滇ICP备07002680号-1</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53060202000060" target="_blank"><img src="/uploadfiles/ga.png" alt="公安备案" />滇公网安备 53060202000060号</a>
+
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="home_fudongLeft"> 
+<img src="/UploadFiles/190710ad.jpg" alt="扫黑二维码" />
+</div>
+
+
+<div id="img_float1" style="z-index:111111; left:2px; width:240px; position:absolute; top:43px; height:137px; visibility:visible;"> 
+<div align="right" onclick="document.getElementById('img_float1').style.display='none'" style="cursor:pointer; color:red;font-size:12px;margin-bottom:0px;text-decoration:none;position:relative"><i class="fa fa-close"></i> [关闭]</div>
+<div class="vfilm">
+<span class="text-center">市场主体年度报告操作指南</span>
+<span class="center-block text-center"><a href="/vfilm.html" class="btn btn-primary">微视频</a></span>
+</div>
+</div>  
+
+<script>
+//检测固顶事件
+var IO=document.getElementById('home_nav'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+//下拉友情链接
+$().ready(function(e) {
+	$(".link_item").find("select").change(function(){
+		if($(this).val()!="")
+		{
+			window.open($(this).val());
+		}
+	});
+});
+/*头部滚动通知*/
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+/*轮播图*/
+//$().ready(function(e) {
+//    $(".item_list1").addClass("active");
+//});
+/*悬浮窗口*/
+(function($) {
+   jQuery.fn.imgFloat = function(options) {
+        var own = this;
+        var xD = 0;
+        var yD = 0;
+        var i = 1;
+        var settings = {
+            speed: 10,
+            xPos: 0,
+            yPos: 0
+        };
+        jQuery.extend(settings, options);
+        var ownTop = settings.xPos;
+        var ownLeft = settings.yPos;
+        own.css({
+            position: "absolute",
+            cursor: "auto"
+            //cursor: "pointer"
+        });
+        function imgPosition() {
+            var winWidth = $(window).width() - own.width();
+            var winHeight = $(window).height() - own.height();
+            if (xD == 0) {
+                ownLeft += i;
+                own.css({
+                    left: ownLeft
+                });
+                if (ownLeft >= winWidth) {
+                    ownLeft = winWidth;
+                    xD = 1;
+                }
+            }
+            if (xD == 1) {
+                ownLeft -= i;
+                own.css({
+                    left: ownLeft
+                });
+                if (ownLeft <= 0) xD = 0;
+            }
+            if (yD == 0) {
+                ownTop += i;
+                own.css({
+                    top: ownTop
+                });
+                if (ownTop >= winHeight) {
+                    ownTop = winHeight;
+                    yD = 1;
+                }
+            }
+            if (yD == 1) {
+                ownTop -= i;
+                own.css({
+                    top: ownTop
+                });
+                if (ownTop <= 0) yD = 0;
+            }
+        }
+        var imgHover = setInterval(imgPosition, settings.speed);
+        own.hover(function() {
+            clearInterval(imgHover);
+        },
+        function() {
+            imgHover = setInterval(imgPosition, settings.speed);
+        });
+    }
+})(jQuery);
+$('#img_float1').imgFloat({speed:30,xPos:10,yPos:10});
+//手机下右侧导航菜单效果
+$(function () {
+    $('button.navbar-toggle').click(function () {
+        $('body').toggleClass('out');
+        $('nav.navbar-fixed-top').toggleClass('out');
+        if ($('body').hasClass('out')) {
+            $(this).focus();
+        }
+        else {
+            $(this).blur();
+        }
+    });
+});
+$(document).click(function (e) {
+    if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
+        e.preventDefault();
+        $('button.navbar-toggle').trigger('click');
+    }
+}).keyup(function (e) {
+    if (e.keyCode == 27 && $('body').hasClass('out')) {
+        $('button.navbar-toggle').trigger('click');
+    }
+});
+</script>
+</body>
+</html>
+

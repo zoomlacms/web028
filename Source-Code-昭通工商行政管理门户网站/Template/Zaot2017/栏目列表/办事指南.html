@@ -1,0 +1,117 @@
+{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<link href="{$CssDir/}fix.css" rel="stylesheet" type="text/css" />
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<script src="/js/jquery.lazyload.js" type="text/javascript"></script>
+<script src="{$CssDir/}js/jquery.js"></script>
+<script src="{$CssDir/}js/index.js"></script>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<div class="container">
+<img src="{$CssDir/}images/pic42.jpg" alt="" class="img-responsive"/>
+</div>
+<!-- 通栏广告位 -->
+<div class="container">
+<div class="nodes">
+<div class="nodes_l" id="mysite">
+<span>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}</span>
+<div  class="pull-right">
+<p>您的位置：<a href="/" target="_blank">首页</a>>>{SField sid="节点栏目信息数据源" FD="NodeName" page="0/}</p>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="guide">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 guide_l">
+<img src="{$CssDir/}images/pic45.jpg" alt="" class="img-responsive"/>
+</div>
+
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 guide_r">
+<ul class="list-unstyled">
+<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12 "><a href="{ZL:GetNodeLinkUrl(4)/}"   type="button" class="btn btn-primary">办事指南</a></li>
+<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12 "><a href="{ZL:GetNodeLinkUrl(127)/}"   type="button" class="btn btn-primary">表格下载</a></li>
+</ul>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="mall_switch">
+<div class="col-lg-4 col-md-8 col-sm-8 col-xs-12 tabBlock" id="mall_switch_l">
+<ul class="list-unstyled tabBlock-tabs" >
+<li class="tabBlock-tab is-active">
+<span>按业务职能</span>
+<div class="tabBlock-pane" >
+<ul class="list-unstyled">
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(企业注册)$}">企业注册</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(外资登记)$}">外资登记</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(竞争执法)$}">竞争执法</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(消费保护)$}">消费保护</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(企业监管)$}">企业监管</a></li>
+</ul>
+</div>
+
+</li>
+<li class="tabBlock-tab">
+<span>按职权目录</span>
+<div class="tabBlock-pane">
+<ul class="list-unstyled">
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(行政许可)$}">行政许可</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(行政处罚)$}">行政处罚</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(行政确认)$}">行政确认</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(行政征收)$}">行政征收</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(行政强制)$}">行政强制</a></li>
+</ul>
+</div>
+</li>
+<li class="tabBlock-tab">
+<span>按审批对象</span>
+<div class="tabBlock-pane">
+<ul class="list-unstyled">
+<li><a href="{ZL:GetNodeLinkUrl(4)/}?name={$GetUrlencode(内资企业)$}">内资企业</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(外资企业)$}">外资企业</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(广告经营)$}">广告经营</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(商标注册)$}">商标注册</a></li>
+<li><a href="{ZL:GetNodeListUrl(4)/}?name={$GetUrlencode(其他事务)$}">其他事务</a></li>
+</ul>
+</div>
+</li>
+<div class="clear"></div>
+</ul>
+<div class="clear"></div>
+<div>
+</div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mall_switch_r">
+{ZL.Label id="输出办事所有标题" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" ShowNum="10" TitleNum="68"/}
+</div>
+</div>
+</div>
+</div>
+{ZL.Label id="全站底部"/}
+</div>
+</body>
+</html>
+<script>
+var demo = document.getElementById("demo");
+var demo1 = document.getElementById("demo1");
+var demo2 = document.getElementById("demo2");
+demo2.innerHTML=document.getElementById("demo1").innerHTML;
+function Marquee(){
+if(demo.scrollLeft-demo2.offsetWidth>=0){
+ demo.scrollLeft-=demo1.offsetWidth;
+}
+else{
+ demo.scrollLeft++;
+}
+}
+var myvar=setInterval(Marquee,30);
+demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+demo.onmouseover=function(){clearInterval(myvar);}
+</script>
